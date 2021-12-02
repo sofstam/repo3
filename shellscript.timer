@@ -1,11 +1,11 @@
 [Unit]
-Description=Runs shell script every day at 15:30
+Description=Runs shell script every Monday and Saturday at 15:30
 
 PartOf=shellscript.target
 
 [Timer]
 Unit=shellscript.service
-OnCalendar=*-*-* 14:30:00
+OnCalendar=Mon,Sat 14:30:00
 Persistent=true
 
 [Install]
