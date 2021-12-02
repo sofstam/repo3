@@ -5,7 +5,7 @@ PartOf=shellscript.target
 
 [Timer]
 Unit=shellscript.service
-OnCalendar=Wed,Sat 04:00:00
+OnCalendar=Wed,Sat 05:00:00
 Persistent=true
 
 [Install]
