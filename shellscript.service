@@ -2,7 +2,7 @@
 Description=My Shell Script
 
 [Service]
-ExecStart=/home/vagrant/repo3/test.sh
+ExecStart=/home/vagrant/repo3/pull_artic_dockers.sh
 
 
 [Install]
